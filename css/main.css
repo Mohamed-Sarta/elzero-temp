@@ -611,7 +611,7 @@ header .container div.hidden ul.hidden-list li a{
 /* start features */
 .features .container{
     display: grid;
-    grid-template-columns: repeat(auto-fill , minmax(350px , 1fr));
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
     text-align: center;
     gap: 40px;
     margin-bottom: 200px;
