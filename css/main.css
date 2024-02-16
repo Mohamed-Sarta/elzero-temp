@@ -248,6 +248,8 @@ header .container ul.main-list li.main-link a.main-link::after{
 }
 header .container ul.main-list li.main-link a.main-link:hover{
     background-color: #fafafa;
+    color: var(--main-color);
+/*     added on git */
 }
 header .container ul.main-list li.main-link a.main-link:hover::after{
     width: 100%;
@@ -324,7 +326,6 @@ header .container div.hidden ul.hidden-list li{
     height: calc(20% - 10px);
     display: flex;
     align-items: center;
-    /* padding: 5px; */
     position: relative;
     transition: 0.4s;
 }
