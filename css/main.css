@@ -398,6 +398,14 @@ header .container div.hidden ul.hidden-list li a{
     bottom: 50%;
     transform: translateY(50%);
 }
+@media (max-width: 991px) {
+    .landing .container .text{
+        text-align: center;
+        max-width: 500px;
+        margin: 0px auto;
+        transform: translateY(50%);
+    }
+}
 .landing .container .text{
     display: flex;
     flex-direction: column;
@@ -1743,8 +1751,6 @@ footer .exhib{
 footer .exhib .image{
     display: inline-block;
     border: 5px solid white;
-}
-footer .exhib .image img{
 }
 footer .image{
     height: 80px;
